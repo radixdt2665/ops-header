@@ -1,0 +1,54 @@
+@media(min-width:1560px){
+    /* navbar css start */
+    .nav-main .container{
+        max-width: 1530px;
+    }
+    /* navbar css end */
+
+}
+
+
+
+
+
+
+/* common css start */
+:root {
+    --color-blue : #144955;
+    --color-orange : #f14c38;
+    --color-tealBlue : #45ada0;
+}
+
+.color-orange{
+    color: var(--color-orange);
+}
+.color-blue{
+    color: var(--color-blue);
+}
+.color-tealBlue{
+    color: var(--color-tealBlue);
+}
+.bg-orange{
+    background-color: var(--color-orange);
+}
+.bg-blue{
+    background-color: var(--color-blue);
+}
+.bg-tealBlue{
+    background-color: var(--color-tealBlue);
+}
+/* common css end */
+
+
+/* navbar css start */
+.nav-main{
+    border-top: 2px solid var(--color-blue) ;
+}
+.nav-main .contact-info-wrapper .contact-detail:hover{
+    color: var(--color-tealBlue);
+}
+.nav-main .contact-info-wrapper .mail-wrapper{
+    margin-left: 20px;
+}
+/* navbar css end */
+
